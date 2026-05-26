@@ -28,7 +28,7 @@ Demonstrar a importância do equilíbrio entre produção agrícola e preservaç
 
 /assets/img → imagens do projeto
 
-## 🖼 Créditos
+## 🖼 Crédito
 
 Imagem utilizada:
 Pode ser uma imagem autoral ou criada/customizada no Canva.

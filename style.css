@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4fff4;
+    color: #222;
+    transition: 0.5s;
+}
+
+header {
+    background-color: #2e8b57;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+#modoEscuro {
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.banner img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.card {
+    margin: 30px;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    color: #2e8b57;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    background-color: #2e8b57;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+button:hover {
+    background-color: #14532d;
+    transform: scale(1.05);
+}
+
+.contador-box {
+    text-align: center;
+}
+
+#contador {
+    font-size: 50px;
+    margin: 20px;
+    color: green;
+}
+
+.cards-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.mini-card {
+    flex: 1;
+    min-width: 220px;
+    background-color: #e9ffe9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2e8b57;
+    color: white;
+    margin-top: 40px;
+}
+
+/* MODO ESCURO */
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode .card {
+    background-color: #1f1f1f;
+}
+
+.dark-mode input,
+.dark-mode textarea {
+    background-color: #333;
+    color: white;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 768px) {
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards-container {
+        flex-direction: column;
+    }
+
+    .banner img {
+        height: 250px;
+    }
+
+    .card {
+        margin: 15px;
+    }
+}
